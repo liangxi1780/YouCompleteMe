@@ -1,0 +1,19 @@
+##持续更新中
+# SpringCloud
+尚硅谷周阳老师springcloud学习、代码、笔记记录
+今天看到周阳老师出了[尚硅谷2020最新版SpringCloud(H版&Alibaba)]https://www.bilibili.com/video/BV18E411x7eT)，十分欣喜，很喜欢周阳老师的讲课风格，内容也充实，我也算是周阳老师忠实粉丝啦。
+
+新出的springcloud第二版很符合我现阶段的学习需求。但美中不足的是，目前只有视频资料，并没有周阳老师上课的脑图，一点一点跟着老师构建项目，稍有吃力。将目前学习的笔记整理，供自己日后复习，供大家参考。若有不足，还请指正。
+
+更多精彩内容请关注我的个人博客：[轻狂书生FS](http://u.720life.cn/g/ce3f6174933242f367d8a4cd3fa79deda4fb2df1d502cd339bf6850c69edd1ea5de1fd3f5a0cad4573cef07de814b9459537960940e31b1729ae34da867470531d7b44653b711efade8aef3140b286331acdee216a5b75e49fcedb07a415eadfe28771c2982eaf36f2f7739776572d6d542729bffc5d06a6d660081b91524c31022838e93e468bc19dea0d581abf3bce)  我会把日常学习的东西分享在我的博客里。
+
+如果你想观看视频请关注我的B站： [轻狂书生FS](http://u.720life.cn/g/53d965c89cfaa89e69480af221ad5eb1ae17e810bd0531ffc91d8f2b3804051422e368172b205977e960758b1e5bc2aaeac6015563defc7b2ecd6b3fcbc1cf4c82ed474352804be64b38e4480531f97df35678f4349539a2f54665812aa23783df9d9f56cc0f7731c1fcf5af53c13ebd91192e0275b53a53db02e64bba552ff9e276cc541b31380acb8f1c6fc4c5208f4e7c89f4012996b5785b6db0ecf11be3)  我会在全站搜索所有优质资源，分享给大家。
+
+谢谢
+
+
+ # 良心友情链接
+
+[腾讯QQ群快速检索](http://u.720life.cn/s/8cf73f7c)
+
+[软件免费开发论坛](http://u.720life.cn/s/bbb01dc0)
