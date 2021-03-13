@@ -1,0 +1,39 @@
+# httpbin(1): HTTP Request & Response Service
+
+
+A [Kenneth Reitz](http://u.720life.cn/g/1ebef0efd17b04700155fbbd25fed92e5e665661adfdd34c43816e2a06338e7f)  Project.
+
+![ice cream](http://farm1.staticflickr.com/572/32514669683_4daf2ab7bc_k_d.jpg)
+
+Run locally:
+```sh
+docker pull kennethreitz/httpbin
+docker run -p 80:80 kennethreitz/httpbin
+```
+
+See http://httpbin.org for more information.
+
+## Officially Deployed at:
+
+- http://httpbin.org
+- https://httpbin.org
+- https://hub.docker.com/r/kennethreitz/httpbin/
+
+
+## SEE ALSO
+
+- http://requestb.in
+- http://python-requests.org
+- https://grpcb.in/
+
+## Build Status
+
+[![Build Status](https://travis-ci.org/requests/httpbin.svg?branch=master)](https://travis-ci.org/requests/httpbin)
+
+
+
+ # 良心友情链接
+
+[腾讯QQ群快速检索](http://u.720life.cn/s/8cf73f7c)
+
+[软件免费开发论坛](http://u.720life.cn/s/bbb01dc0)
