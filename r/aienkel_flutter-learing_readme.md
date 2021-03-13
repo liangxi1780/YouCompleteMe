@@ -1,0 +1,52 @@
+
+### 主要是总结学习flutter的一些东西，与大家一起学习，一起进步
+
+##### 掘金:入魔的冬瓜，[https://juejin.im/user/578d6f466be3ff006cee847d](http://u.720life.cn/g/8a35642bd69eb006eb1f0259b3a6f6f0917df7f6d280f185767a27b5f5fcc70494ff53b29b821cace986a9052d9b1c0b) 
+##### Github：[https://github.com/LXD312569496/flutter-learing](http://u.720life.cn/g/54145d0471d91890860f7f8463c030464904ca1cf16f655e7e30cabc47c935149429c73bd9502f5d921da2a0fb513113) 
+#####  CSDN:入魔的冬瓜，[https://me.csdn.net/weixin_34999505](http://u.720life.cn/g/d17dac681011e238d26b2833c8bd35ad957e1d4a44fed96f6adb7b435b504119f112d0eeaca4f456861cfb0a562456a4) 
+##### 简书：入魔的冬瓜，[https://www.jianshu.com/u/093a0cc6c22b](http://u.720life.cn/g/8a0e6e781ca1335d5641e0f9d5e96ab9323bfc4ee7a96701ac3c119c1986cbe40fcb6ad37eca9eee417deb1266544351) 
+#####  公众号:入魔的冬瓜
+
+ 
+
+### 控件的学习和使用，踩坑
+
+##### 1. [学习FutureBuilder的使用](http://u.720life.cn/g/54145d0471d91890860f7f8463c030464904ca1cf16f655e7e30cabc47c93514716538c46bb1d6d7255df0006e5be72316b29f1ce1eb68fc5b839ba7819fcba19c7c7bfa0165ce709512d3882a28e282bf21273a41923083c5ad33ef7c014efc) 
+
+##### 2. 几种列表控件的使用以及总结
+ 
+##### 3. [自己封装一个通用的listview](http://u.720life.cn/g/54145d0471d91890860f7f8463c030464904ca1cf16f655e7e30cabc47c93514716538c46bb1d6d7255df0006e5be723bbd1e9e44c0ead48cd00f85239b198fceac798296e43258cc243026b9748e001) 
+
+##### 4. [SizeBox的几种用法](http://u.720life.cn/g/54145d0471d91890860f7f8463c030464904ca1cf16f655e7e30cabc47c93514716538c46bb1d6d7255df0006e5be72390fc08f0c566329ed81bc4083636266c160852d5c852917ece6eaefc5c4e472e) 
+
+##### 5. [Dialog的使用和踩坑、自定义Dialog](http://u.720life.cn/g/54145d0471d91890860f7f8463c030464904ca1cf16f655e7e30cabc47c93514716538c46bb1d6d7255df0006e5be723c7f81549fc59c78c3f47be661f80a031c2da872aabf4c34e4c931bca5d23f15f) 
+
+##### 6. [监听返回键WillScope](http://u.720life.cn/g/54145d0471d91890860f7f8463c030464904ca1cf16f655e7e30cabc47c93514716538c46bb1d6d7255df0006e5be723905d55fe4dfd4ab9e155a9fc90501bbd1bfd4d478d0d85feb7cf535d3e50a2b2d53ebe0b32e481a024e7f35974ce55fc) 
+
+##### 7. [在Flutter中使用Flare构建的动画](http://u.720life.cn/g/54145d0471d91890860f7f8463c030464904ca1cf16f655e7e30cabc47c93514716538c46bb1d6d7255df0006e5be723c1f8ad2cfa112685f34245bb377412b7db321b165ba8b6b26d13d28745e1372e) 
+
+##### 8. [根据platform显示对应风格的widget](http://u.720life.cn/g/54145d0471d91890860f7f8463c030464904ca1cf16f655e7e30cabc47c93514716538c46bb1d6d7255df0006e5be7236295c4f10d3edb9f6f97e8a86e4952628a3cb7470f657a01a5f02a8cc29d0bcbb49a4fe62910ad374864fb854d82c663) 
+
+##### 9. [Flutter中管理路由栈的方法和应用](http://u.720life.cn/g/54145d0471d91890860f7f8463c030464904ca1cf16f655e7e30cabc47c93514716538c46bb1d6d7255df0006e5be7230f7e004c0e13d35760ad91baa496e9108655e314ca29ae20eb5b623782c1e837) 
+
+### 自己写的Demo
+
+##### 1.[练手撸一个漂亮的登录界面](http://u.720life.cn/g/54145d0471d91890860f7f8463c030464904ca1cf16f655e7e30cabc47c93514716538c46bb1d6d7255df0006e5be723086e346aa73d6ae23c65aac9e3bc0a01ee8da4a5582d844e26380b91a2ab7ea9) 
+
+### Flutter原理和源码
+
+##### 1. 理解Flutter中的context、state、widget
+
+##### 2. Flutter的绘制过程
+
+### Flutter工具
+
+##### 1.[Flutter提升开发效率的一些方法和工具](http://u.720life.cn/g/54145d0471d91890860f7f8463c030464904ca1cf16f655e7e30cabc47c93514716538c46bb1d6d7255df0006e5be723a576e79f9317fc1261c06f4736d4de4567de7e59e9469433b04ee3df1cb259e0) 
+
+
+
+ # 良心友情链接
+
+[腾讯QQ群快速检索](http://u.720life.cn/s/8cf73f7c)
+
+[软件免费开发论坛](http://u.720life.cn/s/bbb01dc0)
