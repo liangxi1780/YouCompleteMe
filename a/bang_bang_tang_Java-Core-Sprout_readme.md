@@ -1,0 +1,118 @@
+
+   
+
+  
+ 
+
+[![Build Status](https://travis-ci.org/crossoverJie/JCSprout.svg?branch=master)](https://travis-ci.org/crossoverJie/JCSprout)
+[![QQ群](https://img.shields.io/badge/QQ%E7%BE%A4-787381170-yellowgreen.svg)](https://jq.qq.com/?_wv=1027&k=5HPYvQk)
+
+[qq0groupsvg]: https://img.shields.io/badge/QQ%E7%BE%A4-787381170-yellowgreen.svg
+[qq0group]: https://jq.qq.com/?_wv=1027&k=5HPYvQk
+
+  
+
+
+> `Java Core Sprout`：处于萌芽阶段的 Java 核心知识库。
+
+
+ 
+
+
+| 📊 |⚔️ | 🖥 | 🚏 | 🏖  | 🌁| 📮 | 🔍 | 🚀 | 🌈 |💡
+| :--------: | :---------: | :---------: | :---------: | :---------: | :---------:| :---------: | :-------: | :-------:| :------:|:------:|
+| [集合](#常用集合) | [多线程](#java-多线程)|[JVM](#jvm) | [分布式](#分布式相关) |[框架](#常用框架第三方组件)|[架构设计](#架构设计)| [数据库](#db-相关) |[算法](#数据结构与算法)|[Netty](#netty-相关)| [附加技能](#附加技能)|[联系作者](#联系作者) |
+
+
+
+### 常用集合
+- [ArrayList/Vector](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814c90e5dbdc5b4e68b59f4890caa9e494c48954401e43f8f8bd08ec9fd5e917ec99) 
+- [LinkedList](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814cb8b55bb8383bf50f21e8367e6f9ea30a0be089d96ae1c01cf67bf0cf0db6d3c3) 
+- [HashMap](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814cc351eb3795ffc3f7128852e4f476b4547a1a6b72d1e926cac3a896bcfd495387) 
+- [HashSet](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814c3874c949e4423c1ccc2c11d56f4e2523920c69889a1094db0795333b01d5e59f) 
+- [LinkedHashMap](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814c3874c949e4423c1ccc2c11d56f4e2523747f9811b8f6872619a6f20c0ef1f6038be22912f1879f59aafa06fdf935bed3) 
+
+### Java 多线程
+- [多线程中的常见问题](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814cf3002353176843548072c22dfda573308a364c52ba2d9bf801fd27380c029ee0) 
+- [synchronized 关键字原理](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814cd7a37248a06e9fb6507f52b4a096d068fcd01f91b8688b343aec54398b377240) 
+- [多线程的三大核心](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814c98423fd2ecc890c6e32e530d79baa9bb15612430df0b89a89f12a99908814fb7) 
+- [对锁的一些认知](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814cc60d7e01dea3bcde2d5f72ad348cdce172a6a495f4af6fea49faba7c55c2fddd) 
+- [ReentrantLock 实现原理 ](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814c55025f32984a7b323ed6cfc93b65755eb4379b0d4e0410ca19cfb9117765bd62) 
+- [ConcurrentHashMap 的实现原理](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814c94eb1f15c91ef4aebeb5d961f4f654c50ef943a1c3cda80e3f8cb6f9df7eb663) 
+- [如何优雅的使用和理解线程池](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814cb32922f303e09b13bef0a64b864471d6c515b1e4b32f3c3676abfbb356fb8928) 
+- [深入理解线程通信](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814c2bdf55703dd6846acc9ce2ba2783dd330e49816d1c6a46e2faf0502d493dddff0a0ccca8730ead088095f6b3989cf045) 
+- [交替打印奇偶数](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814ca7043862cc5d85c20e7a7b6283a495ee98164c3ff2a5828bc82f2eb430f4a89ffb6371dea7438a89842f3aa02e0cdfbdc6636e171e06148b5bf3a6abc720fa55) 
+
+### JVM
+- [Java 运行时内存划分](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814c30b297e2f0930ba22ab0b98ce249a5e15c10c31794b0596f5d47c79f53a5b679) 
+-  [类加载机制](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814cf7dd72c5744808bdbcb08a70f8534c7b053b84ff7f94642a86fcc4d51faccfc5) 
+-  [OOM 分析](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814c03fd67fe0653b9f32ba8a092b06bf6528aa5fe9f3a17b037eccef20fc1bbcaaf) 
+- [垃圾回收](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814cd947533ecae9985ba0d09042372a56449247f7abd33cbb3b78fd0b27749ab138) 
+- [对象的创建与内存分配](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814c37d5a067c3eb7950fb350541d47423b3f4832756600d3370e4b8ca91570120ad) 
+- [你应该知道的 volatile 关键字](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814c2bdf55703dd6846acc9ce2ba2783dd3361f57af1acc1b291aac88497f668f906) 
+
+### 分布式相关
+
+- [分布式限流](http://u.720life.cn/g/798d72f648e463dd10bc16699978c39b059289d3e4a1e4ea071ec03556455343164d6449dd8fb139508b281aacc15b1d8c7ec31866ec7fa70482e6afdf20bde6) 
+- [基于 Redis 的分布式锁](http://u.720life.cn/g/798d72f648e463dd10bc16699978c39b098d263f79520b1e0f92f2de5c5d1b66b026979a01d3adca9b84cee0a03f39318cbed5c885775d5d1767e52488a597050b3f578627e8153cd0b227d1d501939c) 
+- [分布式缓存设计](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814cfb1715a5e037b57d939ef88088a03de203fe6e3271503861c1e3b0b977ddb115) 
+- [分布式 ID 生成器](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814c4068cd2ac6162090944497a0770a259658a5399902b5041c2a0205f64fa4d817) 
+
+### 常用框架\第三方组件
+
+- [Spring Bean 生命周期](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814c6569352e6d8810b57608b6b13bc182bfb8c8d1dd96ffbdfc5e3d845228651c0715c3b806dd4e1fbc974f690a6b119a61) 
+- [Spring AOP 的实现原理](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814c43c0fc7e084e1a98c9f160db082582578a60197ec1629b4be8b43faeee042cdf)  
+- [Guava 源码分析（Cache 原理）](http://u.720life.cn/g/0d93994d133e1c72b62a7fe3bd088c3ce3ffde70b08cd4ac84a12f1fd664b9f5b92407a084c8964b6ef4e400d40c7606a13d641fb68a7c84d8b287b873887f48) 
+- SpringBoot 启动过程
+- Tomcat 类加载机制
+
+
+### 架构设计
+- [秒杀系统设计](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814ce615a625f7f4c123d65f09d2d30a43a5) 
+- [秒杀架构实践](http://u.720life.cn/g/798d72f648e463dd10bc16699978c39b06b6e58e4fa26d368a79c64f6ea2013f59d2bad2d834ee4f0cf03c579b376ce6092ee95d324406c93dacbaa09bd45acc) 
+
+### DB 相关
+
+- [MySQL 索引原理](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814c340ce11089cb6a68b2cb95cf6e2e4939d9288da9f965d8186a31557379c6ca0b) 
+- [SQL 优化](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814c32a276b866ad6826db8bad84f35b6263cc0ac0aff5e4a2485fd620e49771f7d4) 
+- [数据库水平垂直拆分](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814c8b3d0cefa97013522aebccb98ef95c45e8350f8d0a1430701c78b62dff1541fa) 
+
+### 数据结构与算法
+- [红包算法](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814ca7043862cc5d85c20e7a7b6283a495ee98164c3ff2a5828bc82f2eb430f4a89fad6b21c2a10a2ca2befa181f7e108aa99ff854f67afb52e8de6e021abaf4447f) 
+- [二叉树层序遍历](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814ca7043862cc5d85c20e7a7b6283a495ee98164c3ff2a5828bc82f2eb430f4a89f85396dfe19dcd85da6e5027d7d897147d86a681d71ee11864ee69898f3112cebe1b0410ae36c4d8c543cc07ce3350c1f) 
+- [是否为快乐数字](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814ca7043862cc5d85c20e7a7b6283a495ee98164c3ff2a5828bc82f2eb430f4a89f4963212082e88ccf9fb3496a3f3013e6c7e61ab617bddaf2fcbafaf331d515bd13739bd431b67e97ffcfbb02cbb51d31) 
+- [链表是否有环](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814ca7043862cc5d85c20e7a7b6283a495ee98164c3ff2a5828bc82f2eb430f4a89f719b85d39fdf28be3aaf7c7e3e6d0d6bbcc7adc60b8ef8efa331e83deb092e341f694d5423fa352e7585502ef459283e) 
+- [从一个数组中返回两个值相加等于目标值的下标](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814ca7043862cc5d85c20e7a7b6283a495ee98164c3ff2a5828bc82f2eb430f4a89f793425045322f67b1806d50f6fd9a756b21256b24228f5f8168331587c2c0eca28c01713fdfa1784b7ad527c3b6c8b62) 
+- [一致性 Hash 算法](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814cd6cd3d638486ecdf8ed7dea6a8df48749ad2d79f135acdbd1225159b95c9085a) 
+- [限流算法](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814cfd2b151d32f181db8ed159672638d47d5e83650a9610d3616e7ee7c55cb1d6d8) 
+- [三种方式反向打印单向链表](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814ca7043862cc5d85c20e7a7b6283a495ee98164c3ff2a5828bc82f2eb430f4a89f0050d6d367f5bdf5d35bc7551048650e1e69e4ae61256c44a83d73c84afaa100) 
+- [合并两个排好序的链表](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814ca7043862cc5d85c20e7a7b6283a495ee98164c3ff2a5828bc82f2eb430f4a89f422eaddd413efdb1392630662d3af88f9d2eeefaca3ec2f0d444404273214a69ae81f20aaa1f529c9431b697b2132ea2) 
+- [两个栈实现队列](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814ca7043862cc5d85c20e7a7b6283a495ee98164c3ff2a5828bc82f2eb430f4a89f793425045322f67b1806d50f6fd9a7561b6ec20ccc144864577835292d12bd3c) 
+- [动手实现一个 LRU cache](http://u.720life.cn/g/798d72f648e463dd10bc16699978c39b059289d3e4a1e4ea071ec03556455343cc37809b92c49af99b8ce6e09922be8130c1b438065a9774cc8ea40090a7b55c) 
+- [链表排序](./src/main/java/com/crossoverjie/algorithm/LinkedListMergeSort.java)
+- [数组右移 k 次](./src/main/java/com/crossoverjie/algorithm/ArrayKShift.java)
+
+### Netty 相关
+- [SpringBoot 整合长连接心跳机制](http://u.720life.cn/g/0d93994d133e1c72b62a7fe3bd088c3c8a888edd168ba85196674b2b0beebde327bd3b51f9211e59385a9744a39b954b717589328214aca091242375329db5e4) 
+- [从线程模型的角度看 Netty 为什么是高性能的？](http://u.720life.cn/g/0d93994d133e1c72b62a7fe3bd088c3c67a6f38da6ebf1b6c61f94f38a9874e71dddd8cadd0f66c12c1dae90905cff67b36e81c5fd43a389ea39b96a3742a3c2) 
+
+### 附加技能
+
+- [TCP/IP 协议](http://u.720life.cn/g/54145d0471d91890860f7f8463c030466b5dbae56442eb2f53ca5fa8e3184a74effb167bd2fa18064e1969d9590b814c23f05a947e7c51e78d9faf513089afc4cb53e557616d8aa2bdb698a93357f2c3) 
+- [一个学渣的阿里之路](http://u.720life.cn/g/0d93994d133e1c72b62a7fe3bd088c3ce3ffde70b08cd4ac84a12f1fd664b9f510d0b2354af280bb2390e15122aa33a1f5efdfb58e9c677e84cb28b1468739762fd4ef3e1ab8ed85ff2aa4da11a97fe1) 
+- [如何成为一位「不那么差」的程序员](http://u.720life.cn/g/0d93994d133e1c72b62a7fe3bd088c3c50d11587181f15bc2d5927ab5690fcb1436fd9009c025f1de6ce01837fec56c5eb35cf3e83496d6892e5ec0147c721ab7d64adce6b57956dd336c67677f560b7) 
+
+
+### 联系作者
+
+> crossoverJie#gmail.com
+
+  
+
+
+
+ # 良心友情链接
+
+[腾讯QQ群快速检索](http://u.720life.cn/s/8cf73f7c)
+
+[软件免费开发论坛](http://u.720life.cn/s/bbb01dc0)
