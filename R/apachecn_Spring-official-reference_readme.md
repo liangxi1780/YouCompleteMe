@@ -1,0 +1,54 @@
+ 
+
+# Spring official reference
+
+### [中文文档](README_zh.md)
+
+## Project 
+
+### Spring Boot
+[![Build Status](https://ci.spring.io/api/v1/teams/spring-boot/pipelines/spring-boot/jobs/build/badge)](https://ci.spring.io/teams/spring-boot/pipelines/spring-boot?groups=Build")   [![Chat](https://badges.gitter.im/JoinChat.svg)](https://gitter.im/spring-projects/spring-boot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge")
+
+Spring Boot makes it easy to create Spring-powered, production-grade applications and
+services with absolute minimum fuss. It takes an opinionated view of the Spring platform
+so that new and existing users can quickly get to the bits they need.
+
+You can use Spring Boot to create stand-alone Java applications that can be started using
+`java -jar` or more traditional WAR deployments. We also provide a command line tool
+that runs spring scripts.
+
+Our primary goals are:
+
+* Provide a radically faster and widely accessible getting started experience for all
+Spring development
+* Be opinionated out of the box, but get out of the way quickly as requirements start to
+diverge from the defaults
+* Provide a range of non-functional features that are common to large classes of projects
+(e.g. embedded servers, security, metrics, health checks, externalized configuration)
+* Absolutely no code generation and no requirement for XML configuration
+
+* [SITE](http://u.720life.cn/g/c6d1b26d763f49c99d62f7dd7e1f263d74791681f9785d83f6cd6c957366ad1debb29bb8c32cd47aff960e71f7893090)  | [GIT](http://u.720life.cn/g/54145d0471d91890860f7f8463c0304611a5405430b6b0aabdafc095c1a5e14d92caf6b397a833e76d814e4dbf8c1e36) 
+-------
+#### Version 
+* [2.0.0 M3](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046b1ddeaa4264b8be27f67cfe0061807fbbea53053ca4487984d73f8ca809677f3e8956f3a5939d964455d45c559d72d361fae851a27c7e9669c5bfc107d95fb5a527f654b9cd086f32563c3190660732672d3b839f6ae96078be46d15aae9f3aa) 
+  * [guide](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046b1ddeaa4264b8be27f67cfe0061807fbbea53053ca4487984d73f8ca809677f3e8956f3a5939d964455d45c559d72d361fae851a27c7e9669c5bfc107d95fb5a527f654b9cd086f32563c31906607326b5964f8c85bd01e21487f5c015c78eed7a0509518c30edb28f834474f4fe9225)  | [API](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046b1ddeaa4264b8be27f67cfe0061807fbbea53053ca4487984d73f8ca809677f3e8956f3a5939d964455d45c559d72d361fae851a27c7e9669c5bfc107d95fb5a527f654b9cd086f32563c319066073269c26e7c19991af88bf988cc4d1d05f22) 
+  
+* [2.0.0](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046b1ddeaa4264b8be27f67cfe0061807fbbea53053ca4487984d73f8ca809677f3e8956f3a5939d964455d45c559d72d361fae851a27c7e9669c5bfc107d95fb5a527f654b9cd086f32563c3190660732606f38d7afe8a5d91990d1546e03f90de) 
+  * [guide-part-1](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046b1ddeaa4264b8be27f67cfe0061807fbbea53053ca4487984d73f8ca809677f3e8956f3a5939d964455d45c559d72d361fae851a27c7e9669c5bfc107d95fb5a527f654b9cd086f32563c31906607326bc1a045d86ab5646149a21b205f1723862f81549135e53b612ee5409ea9b24da)  | [guide-part-2](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046b1ddeaa4264b8be27f67cfe0061807fbbea53053ca4487984d73f8ca809677f3e8956f3a5939d964455d45c559d72d361fae851a27c7e9669c5bfc107d95fb5a527f654b9cd086f32563c31906607326bc1a045d86ab5646149a21b205f17238b5b129ba943ebd9d37ebf9f82fa1b6df)  | [API](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046b1ddeaa4264b8be27f67cfe0061807fbbea53053ca4487984d73f8ca809677f3e8956f3a5939d964455d45c559d72d361fae851a27c7e9669c5bfc107d95fb5a527f654b9cd086f32563c319066073261df03cf1ff206e73612313e844fcc923) 
+
+* [1.5.7](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046b1ddeaa4264b8be27f67cfe0061807fbbea53053ca4487984d73f8ca809677f3e8956f3a5939d964455d45c559d72d361fae851a27c7e9669c5bfc107d95fb5a527f654b9cd086f32563c319066073260066e2d7c98a169ae17db3d130caf2d2) 
+  * [guide](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046b1ddeaa4264b8be27f67cfe0061807fbbea53053ca4487984d73f8ca809677f3e8956f3a5939d964455d45c559d72d361fae851a27c7e9669c5bfc107d95fb5a527f654b9cd086f32563c3190660732666f23ae88692f83cb76d444ffc077445)  | [API](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046b1ddeaa4264b8be27f67cfe0061807fbbea53053ca4487984d73f8ca809677f3e8956f3a5939d964455d45c559d72d361fae851a27c7e9669c5bfc107d95fb5a527f654b9cd086f32563c31906607326f3dbd7caf911bb5478017b513ace9d11) 
+  
+* [1.5.6](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046b1ddeaa4264b8be27f67cfe0061807fbbea53053ca4487984d73f8ca809677f3e8956f3a5939d964455d45c559d72d361fae851a27c7e9669c5bfc107d95fb5a527f654b9cd086f32563c319066073268c938dbedd28a5aecab38481d1ddeb35) 
+  * [guide](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046b1ddeaa4264b8be27f67cfe0061807fbbea53053ca4487984d73f8ca809677f3e8956f3a5939d964455d45c559d72d361fae851a27c7e9669c5bfc107d95fb5a527f654b9cd086f32563c319066073261bc11261afeec2d1f5d0b64605bc8005)  | [API](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046b1ddeaa4264b8be27f67cfe0061807fbbea53053ca4487984d73f8ca809677f3e8956f3a5939d964455d45c559d72d361fae851a27c7e9669c5bfc107d95fb5a527f654b9cd086f32563c319066073262b6107fe5aa6989fb951aba820d8c128) 
+  
+* [1.4.7](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046b1ddeaa4264b8be27f67cfe0061807fbbea53053ca4487984d73f8ca809677f3e8956f3a5939d964455d45c559d72d361fae851a27c7e9669c5bfc107d95fb5a527f654b9cd086f32563c31906607326f2bb12f4c6520b15baef78e95081445c) 
+  * [guide](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046b1ddeaa4264b8be27f67cfe0061807fbbea53053ca4487984d73f8ca809677f3e8956f3a5939d964455d45c559d72d361fae851a27c7e9669c5bfc107d95fb5a527f654b9cd086f32563c319066073267c1e6f3cd060fe9700ca8a7d20eb045e)  | [API](http://u.720life.cn/g/54145d0471d91890860f7f8463c03046b1ddeaa4264b8be27f67cfe0061807fbbea53053ca4487984d73f8ca809677f3e8956f3a5939d964455d45c559d72d361fae851a27c7e9669c5bfc107d95fb5a527f654b9cd086f32563c31906607326cdf9e5900c5057db6836545b122df8c7) 
+
+
+
+ # 良心友情链接
+
+[腾讯QQ群快速检索](http://u.720life.cn/s/8cf73f7c)
+
+[软件免费开发论坛](http://u.720life.cn/s/bbb01dc0)
